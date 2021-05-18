@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		534621182651835C0079FF53 /* dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		534621182651835C0079FF53 /* dicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5346211B2651835C0079FF53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5346211D2651835C0079FF53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5346211F2651835C0079FF53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		5346210F2651835C0079FF53 = {
 			isa = PBXGroup;
 			children = (
-				5346211A2651835C0079FF53 /* dice */,
+				5346211A2651835C0079FF53 /* dicee */,
 				534621192651835C0079FF53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		534621192651835C0079FF53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				534621182651835C0079FF53 /* dice.app */,
+				534621182651835C0079FF53 /* dicee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5346211A2651835C0079FF53 /* dice */ = {
+		5346211A2651835C0079FF53 /* dicee */ = {
 			isa = PBXGroup;
 			children = (
 				5346211B2651835C0079FF53 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				53462126265183610079FF53 /* LaunchScreen.storyboard */,
 				53462129265183610079FF53 /* Info.plist */,
 			);
-			path = dice;
+			path = dicee;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		534621172651835C0079FF53 /* dice */ = {
+		534621172651835C0079FF53 /* dicee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5346212C265183610079FF53 /* Build configuration list for PBXNativeTarget "dice" */;
+			buildConfigurationList = 5346212C265183610079FF53 /* Build configuration list for PBXNativeTarget "dicee" */;
 			buildPhases = (
 				534621142651835C0079FF53 /* Sources */,
 				534621152651835C0079FF53 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = dice;
+			name = dicee;
 			productName = dice;
-			productReference = 534621182651835C0079FF53 /* dice.app */;
+			productReference = 534621182651835C0079FF53 /* dicee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 534621132651835C0079FF53 /* Build configuration list for PBXProject "dice" */;
+			buildConfigurationList = 534621132651835C0079FF53 /* Build configuration list for PBXProject "dicee" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				534621172651835C0079FF53 /* dice */,
+				534621172651835C0079FF53 /* dicee */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R436N2958G;
-				INFOPLIST_FILE = dice/Info.plist;
+				INFOPLIST_FILE = dicee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.eimKlimas.dice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R436N2958G;
-				INFOPLIST_FILE = dice/Info.plist;
+				INFOPLIST_FILE = dicee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,14 +315,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.eimKlimas.dice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		534621132651835C0079FF53 /* Build configuration list for PBXProject "dice" */ = {
+		534621132651835C0079FF53 /* Build configuration list for PBXProject "dicee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5346212A265183610079FF53 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5346212C265183610079FF53 /* Build configuration list for PBXNativeTarget "dice" */ = {
+		5346212C265183610079FF53 /* Build configuration list for PBXNativeTarget "dicee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5346212D265183610079FF53 /* Debug */,
